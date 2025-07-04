@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #f7f7f7;
+    color: #4a4a4a;
+}
+
+.bar{
+    background-color: #e6f6fc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+}
+
+.logo{
+    height: 40px;
+}
+
+.icons{
+    color: #0884c5;
+    margin-left: 16px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.form{
+    padding: 20px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.card{
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow:0 0 6px rgba(0,0, 0, 0.5);
+}
+
+.card h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+label{
+    display: block;
+    margin-top: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+
+select , input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    border-radius: 4px;
+    background-color: #e7e7e7;
+}
+
+option{
+  min-width: 140px;
+  width: auto;
+
+}
+
+.search-by, .search-by label{
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.radio-group label{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn{
+    margin-top: 24px;
+    background-color: #0884c5;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+ background-position: right center;
+ background-size: 200% auto;
+ -webkit-animation: pulse 2s infinite;
+ animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+ 0% {
+  box-shadow: 0 0 0 0 #05bada66;
+ }
+
+ 70% {
+  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+ }
+
+ 100% {
+  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+ }
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    padding: 16px;
+    color: #a6a6a6;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+footer a{
+    color: #0884c5;
+    text-decoration: none;
+    cursor:pointer;
+}

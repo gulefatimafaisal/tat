@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Wise Probation (TAT)</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <header class="bar">
+        <div class="logo">
+            <img src="logo_default_dark_compact.png" alt="Decibel HRMS">
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-question"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="form">
+        <h1>Probation</h1>
+        <div class="card">
+            <h2>Employee Wise Probation (TAT)</h2>
+
+             <label for="company">Company Name </label>
+            <select id="company" name="company">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option value="annual">Descon</option>
+            </select>
+
+            <label for="appraisal">Category</label>
+            <select id="appraisal" name="appraisal">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option value="annual">Probation Review (Reactive)</option>
+            </select>
+            
+            <label for="appraisal">Appraisal Type</label>
+            <select id="appraisal" name="appraisal">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option value="annual">Probation</option>
+                 <option value="quarterly">Potential Asessment</option>
+            </select>
+
+            <label for="appraisal">Business Unit</label>
+            <select id="appraisal" name="appraisal">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option value="annual">Construction</option>
+                 <option value="quarterly">DEST</option>
+                 <option value="monthly">EPC</option> 
+                 <option value="monthly">IS</option>
+                 <option value="monthly">DEL</option>
+                 <option value="monthly">IP</option>
+                 <option value="monthly">Manufacturing</option> 
+            </select>
+
+            <label for="appraisal">Region</label>
+            <select id="appraisal" name="appraisal">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option>AE001D</option>
+                 <option>AE002D</option>
+                 <option>QA005D</option> 
+                 <option>QA012D</option>
+            </select>
+
+            <label for="appraisal">Department</label>
+            <select id="appraisal" name="appraisal">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option>Corporate</option>
+                 <option>IT</option>
+                 <option>Engineering</option> 
+                 <option>HR</option>
+                 <option>Finance</option> 
+                 <option>Design</option>
+            </select>
+
+            <label for="appraisal">Location</label>
+            <select id="appraisal" name="appraisal">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option>AMW Office</option>
+                 <option>Bulley Shah Packages,Kasur</option>
+                 <option>Con. Head Office</option> 
+                 <option>DHQ Lahore</option>
+            </select>
+
+            <label for="division">Division</label>
+            <select id="division" name="division">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option>Construction</option>
+                 <option>DEST</option>
+                 <option>EPC</option> 
+                 <option>IS</option>
+                 <option>DEL</option>
+                 <option>IP</option>
+                 <option>Manufacturing</option> 
+            </select>
+
+            <label for="job-title">Job Title</label>
+            <select id="job-title" name="job-title">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option>Admin & Finance Officer</option>
+                 <option>Business Head</option>
+                 <option>Chairman</option> 
+                 <option>Division President</option>
+                 <option>Engineer</option>
+                 <option>Finance Executive</option>
+                 <option>General Manager</option> 
+                 <option>HRBP</option>
+                 <option>Incharge</option>
+                 <option>Led Admin</option> 
+                 <option>Manager</option>
+                 <option>Network Administrator</option>
+                 <option>President</option>
+                 <option>QA Manager</option>
+                 <option>Receptionist</option>
+                 <option>Site Manager</option>
+                 <option>Testing Engineer</option> 
+                 <option>Vice Chairman</option>
+                 <option>WElding Inspector</option>
+                 <option>Zonal Manager</option> 
+            </select>
+
+
+            <label for="job-cat">Job Category</label>
+            <select id="job-cat" name="job-cat">
+                 <option value="" disabled selected>- Please Select -</option>
+                 <option>Contract</option>
+                 <option>Extended</option>
+                 <option>Full-Time</option> 
+                 <option>Intern</option>
+                 <option>Permanent</option>
+                 <option>Project-Short Term</option>
+                 <option>Project-Long Term</option> 
+                 <option>Regular</option>
+                 <option>Supply Out</option>
+                 <option>Trainee</option>
+            </select>
+
+            <label for="grades">Grades</label>
+            <select id="Grades" name="grades">
+                 <option value=""disabled selected>- Please Select -</option>
+                 <option>A</option>
+                 <option>B</option>
+                 <option>C</option> 
+                 <option>D</option>
+                 <option>E</option>
+                 <option>F</option>
+                 <option>G</option> 
+                 <option>Intern</option>
+            </select>
+
+            <label for="date">From Date</label>
+            <input type="text" placeholder="- Select Date -">
+
+            <label for="date">To Date</label>
+            <input type="text" placeholder="- Select Date -">
+
+
+        <button class="btn">Get</button>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p><a href="#">Privacy Policy for Decibel HRMS</a></p>
+        <p>Decibel HRMS. 2025 DecibelBpo. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
