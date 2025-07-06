@@ -59,7 +59,6 @@ label{
     color: #333;
 }
 
-
 select , input[type="text"]{
     width: 100%;
     padding: 12px;
@@ -67,6 +66,12 @@ select , input[type="text"]{
     margin-top: 6px;
     border-radius: 4px;
     background-color: #e7e7e7;
+    transition: all 0.3s ease;
+}
+
+select:hover, input[type="text"]:hover{
+    border-color: #0884c5;
+    box-shadow: 0 4px 18px 0 rgba(0,0, 0, 0.25);
 }
 
 option{
@@ -97,27 +102,24 @@ option{
     border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    box-shadow: 0px 8px 15px rgba(0,0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
 }
 
 .btn:hover {
- background-position: right center;
- background-size: 200% auto;
- -webkit-animation: pulse 2s infinite;
- animation: pulse512 1.5s infinite;
+ background-color: #e6f6fc;
+ box-shadow: 0px 15px 20px rgba(0,0, 0, 0.1);
+ color: #0884c5;
+ border: 1px solid #0884c5;
+ transform: translateY(-7px); 
 }
 
-@keyframes pulse512 {
- 0% {
-  box-shadow: 0 0 0 0 #05bada66;
- }
-
- 70% {
-  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
- }
-
- 100% {
-  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
- }
+.btn:active{
+    transform: translateY(-1px);
 }
 
 footer{
